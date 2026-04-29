@@ -18,7 +18,7 @@ export default function NotFound() {
                 Page not found
             </h1>
             <h1 className="text-2xl bg-gradient-to-b from-[#e7eaf0] to-[#b0b3bb] bg-clip-text text-transparent text-center">
-                It seems the text you're looking for doesn't exist. Let's get you back on track.
+                It seems the text youre looking for doesnt exist. Lets get you back on track.
             </h1>
         </div>
       </div>

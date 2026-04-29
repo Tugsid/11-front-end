@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { useState } from "react";
 import DataJson from "../../utils/data.json";
@@ -26,7 +27,7 @@ export default function HomePage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-4">
         {filteredData.map((item, index) => (
-          <div className="bg-white w-full rounded-xl border-2 border-black flex flex-col p-4 py-6 shadow-md font-mono">
+          <div key={index} className="bg-white w-full rounded-xl border-2 border-black flex flex-col p-4 py-6 shadow-md font-mono">
             <div className="flex justify-between items-center">
               <p className="text-black font-bold text-lg">
                 {item.first_name} {item.last_name}
@@ -45,7 +46,7 @@ export default function HomePage() {
 
             <div className="mt-2 space-y-1">
               <p><span>{item.img && (
-                        <img
+                        <Image
                           src={item.img}
                           alt="profile"
                           className="w-full h-32 object-cover rounded-lg mt-2"
@@ -71,7 +72,7 @@ export default function HomePage() {
               <div className="flex w-[100%] h-auto p-5 gap-4">
                 <p className="w-30 h-15">
                       <span>{item.img && (
-                        <img
+                        <Image
                           src={item.item1}
                           alt="profile"
                           className="w-36 h-auto object-cover rounded-xl mt-2"
@@ -81,7 +82,7 @@ export default function HomePage() {
                 </p>
                 <p className="w-30 aspect-1/1">
                       <span>{item.img && (
-                        <img
+                        <Image
                           src={item.item2}
                           alt="profile"
                           className="w-36 h-20 object-cover rounded-lg mt-2"

@@ -27,6 +27,7 @@ export default function HomePage() {
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-4">
         {filteredData.map((item, index) => (
           <div
+          key={index}
             className="bg-white w-full rounded-xl border-2 border-black flex flex-col p-4 py-6 shadow-md font-mono"
           >
             <div className="flex justify-between items-center">

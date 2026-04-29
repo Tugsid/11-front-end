@@ -6,11 +6,11 @@ export default function Contact() {
     <div className="h-screen w-screen flex bg-gradient-triple">
       <div className="w-[45%] h-full flex flex-col ml-[5%]">
         <div className="text-[50px] font-mono font-bold mt-15">
-          We'd Love to Hear From You
+          Wed Love to Hear From You
         </div>
 
         <div className="text-[27px] font-mono">
-          Whether it's feedback, ideas, or just a hello we're here
+          Whether its feedback, ideas, or just a hello were here
         </div>
 
         <div className="w-full h-60 mt-[5%]">
