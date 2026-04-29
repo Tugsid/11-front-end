@@ -6,7 +6,13 @@ export default function HomePage() {
   return (
     <div className="h-screen bg-white flex justify-center items-center">
       <div className="aspect-1/1 h-[67%] flex justify-evenly items-center flex-col">
-        <Image src="/favicon.ico" alt="logo" className="aspect-1/1 h-96"/>
+        <Image
+          src="/favicon.ico"
+          alt="logo"
+          width={200}
+          height={200}
+          className="h-96 w-auto"
+        />
         <div className="h-24 w-full flex itmes-center justify-evenly p-5">
           <Link href="/Aimag">
             <button className="border-2 border-solid p-4 font-bold rounded-2xl font-pacific text-[#775fa0]" >Aimag</button>

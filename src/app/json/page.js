@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
 
+import Image from "next/image";
 import { useState } from "react";
 import DataJson from "../../utils/data.json";
 
@@ -26,9 +26,12 @@ export default function HomePage() {
       />
 
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-4">
-        {filteredData.map((item, index) => (
-          <div key={index} className="bg-white w-full rounded-xl border-2 border-black flex flex-col p-4 py-6 shadow-md font-mono">
-            <div className="flex justify-between items-center">
+        {filteredData.map((item) => (
+          <div
+            key={item.id}
+            className="bg-white w-full rounded-xl border-2 border-black flex flex-col p-4 py-6 shadow-md font-mono"
+          >
+            <div className="flex justify-between items-center gap-2">
               <p className="text-black font-bold text-lg">
                 {item.first_name} {item.last_name}
               </p>
@@ -45,51 +48,56 @@ export default function HomePage() {
             </div>
 
             <div className="mt-2 space-y-1">
-              <p><span>{item.img && (
-                        <Image
-                          src={item.img}
-                          alt="profile"
-                          className="w-full h-32 object-cover rounded-lg mt-2"
-                        />
-                      )}
-                  </span>
-              </p>
+              {item.img && (
+                <Image
+                  src={item.img}
+                  alt={`${item.first_name} ${item.last_name}`}
+                  width={300}
+                  height={128}
+                  className="w-full h-32 object-cover rounded-lg mt-2"
+                />
+              )}
+
               <p className="text-black font-bold text-sm">
                 Email: <span className="font-normal">{item.email}</span>
               </p>
+
               <p className="text-black font-bold text-sm">
                 Age: <span className="font-normal">{item.age}</span>
               </p>
+
               <p className="text-black font-bold text-sm">
                 Country: <span className="font-normal">{item.country}</span>
               </p>
+
               <p className="text-black font-bold text-sm">
                 Points: <span className="font-normal">{item.point}</span>
               </p>
+
               <p className="text-black font-bold text-sm">
                 Created: <span className="font-normal">{item.created_at}</span>
               </p>
-              <div className="flex w-[100%] h-auto p-5 gap-4">
-                <p className="w-30 h-15">
-                      <span>{item.img && (
-                        <Image
-                          src={item.item1}
-                          alt="profile"
-                          className="w-36 h-auto object-cover rounded-xl mt-2"
-                        />
-                        )}
-                      </span>
-                </p>
-                <p className="w-30 aspect-1/1">
-                      <span>{item.img && (
-                        <Image
-                          src={item.item2}
-                          alt="profile"
-                          className="w-36 h-20 object-cover rounded-lg mt-2"
-                        />
-                        )}
-                      </span>
-                </p>
+
+              <div className="flex w-full h-auto p-5 gap-4">
+                {item.item1 && (
+                  <Image
+                    src={item.item1}
+                    alt="item 1"
+                    width={144}
+                    height={80}
+                    className="w-36 h-20 object-cover rounded-xl mt-2"
+                  />
+                )}
+
+                {item.item2 && (
+                  <Image
+                    src={item.item2}
+                    alt="item 2"
+                    width={144}
+                    height={80}
+                    className="w-20 h-auto object-cover rounded-lg mt-2"
+                  />
+                )}
               </div>
             </div>
 
