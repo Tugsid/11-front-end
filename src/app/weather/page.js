@@ -9,7 +9,7 @@ export default function LandingPage() {
 
   return (
    <div className='flex items-center m-4 gap-4 w-full h-screen bg-[#151f34]'>
-    <div className='w-[7%] h-dvh bg-[#1b2d58] rounded-3xl flex flex-col justify-start items-center'>
+    <div className='w-[7%] h-[96%] bg-[#1b2d58] rounded-3xl m-4 flex flex-col justify-start items-center'>
         <div className='w-[55%] aspect-1/1 bg-[#173f7f] rounded-2xl m-8 flex justify-center items-center'>
             <img src='https://cdn-icons-png.flaticon.com/512/5024/5024369.png' className='w-[50px] '/>
         </div>
@@ -32,12 +32,12 @@ export default function LandingPage() {
         
         
     </div>
-    <div className='w-[93%] h-dvh flex items-center gap-4'>
-        <div className='w-[60%] h-dvh rounded-3xl gap-4'>
+    <div className='w-[93%] h-dvh flex items-end gap-4'>
+        <div className='w-[60%] h-[98%] rounded-3xl gap-4'>
             <input 
                 placeholder='Search for cities'
                 type="text" 
-                className='w-full h-[6%] my-3 rounded-xl bg-[#1b2d58] placeholder-[#a1cbfa] p-3'
+                className='w-full h-[5%] rounded-xl bg-[#1b2d58] placeholder-[#a1cbfa] p-3'
             />
 
             <div className='w-full h-[35%] flex'>
@@ -65,25 +65,25 @@ export default function LandingPage() {
                         <img src='https://clipart-library.com/2024/weather-symbols-sun-with-clouds/weather-symbols-sun-with-clouds-0.png' className='aspect-1/1 w-[70px]'/>
                         <h1 className='text-[30px] font-bold'>28°</h1>
                     </div>
-                    <div class="w-px bg-gray-300 mx-2"></div>
+                    <div className="w-px bg-gray-300 mx-2"></div>
                     <div className='w-[17%] h-full flex flex-col gap-4 items-center justify-center'>
                         <h1 className='font-bold'>12:00 PM</h1>
                         <img src='https://cdn-icons-png.flaticon.com/512/831/831682.png' className='aspect-1/1 w-[70px]'/>
                         <h1 className='text-[30px] font-bold'>33°</h1>
                     </div>
-                    <div class="w-px bg-gray-300 mx-2"></div>
+                    <div className="w-px bg-gray-300 mx-2"></div>
                     <div className='w-[17%] h-full flex flex-col gap-4 items-center justify-center'>
                         <h1 className='font-bold'>3:00 PM</h1>
                         <img src='https://cdn-icons-png.flaticon.com/512/831/831682.png' className='aspect-1/1 w-[70px]'/>
                         <h1 className='text-[30px] font-bold'>34°</h1>
                     </div>
-                    <div class="w-px bg-gray-300 mx-2"></div>
+                    <div className="w-px bg-gray-300 mx-2"></div>
                     <div className='w-[17%] h-full flex flex-col gap-4 items-center justify-center'>
                         <h1 className='font-bold'>6:00 PM</h1>
                         <img src='https://cdn-icons-png.flaticon.com/512/831/831682.png' className='aspect-1/1 w-[70px]'/>
                         <h1 className='text-[30px] font-bold'>32°</h1>
                     </div>
-                    <div class="w-px bg-gray-300 mx-2"></div>
+                    <div className="w-px bg-gray-300 mx-2"></div>
                     <div className='w-[17%] h-full flex flex-col gap-4 items-center justify-center'>
                         <h1 className='font-bold'>9:00 PM</h1>
                         <img src='https://clipart-library.com/2024/weather-symbols-sun-with-clouds/weather-symbols-sun-with-clouds-0.png' className='aspect-1/1 w-[70px]'/>
@@ -92,7 +92,7 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            <div className='w-full h-[25%] mt-4 bg-[#1b2d58] rounded-3xl'>
+            <div className='w-full h-[25%] my-9 bg-[#1b2d58] rounded-3xl'>
                 <div className='w-full h-[20%] p-10 flex items-center gap-150'>
                     <h1 className='font-bold font-inter text-[#a1cbfa]'>AIR CONDITIONS</h1>
                     <Link href="./content" ><button className='h-8 w-24 bg-blue-500 rounded-2xl hover:bg-blue-900 cursor-pointer'>See more</button></Link>
@@ -133,7 +133,9 @@ export default function LandingPage() {
                 </div>
             </div>
         </div>
-        <div className='bg-green-200 w-[40%] h-dvh rounded-3xl'></div>
+        <div className='bg-[#1b2d58] w-[40%] h-[90%] m-4 rounded-3xl p-10'>
+            <h1 className='font-bold font-inter text-[#a1cbfa]'>7-DAY FORECAST</h1>
+        </div>
     </div>
    </div>
   );

@@ -10,7 +10,10 @@
         "instagram": "hidden_exid",
         "type": "student",
         "point": "100",
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 2,
@@ -23,20 +26,26 @@
         "instagram": "fluffy_duk",
         "type": "student",
         "point": "100",
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 3,
         "first_name": "Temuujin",
         "last_name": "Bayasgalan",
-        "emai": "nest21271012@nhs.edu.mn",
+        "email": "nest21271012@nhs.edu.mn",
         "age": 16,
         "country": "Mongolia",
         "password": "password123",
         "instagram": "",
         "type": "student",
         "point": 80,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 4,
@@ -49,7 +58,10 @@
         "instagram": "batuchrale",
         "type": "student",
         "point": 95,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 5,
@@ -62,7 +74,10 @@
         "instagram": "turuuski_",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 6,
@@ -75,7 +90,10 @@
         "instagram": "tlmn_",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 7,
@@ -88,7 +106,10 @@
         "instagram": "ermuun0408",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 8,
@@ -101,7 +122,10 @@
         "instagram": "munhorgil_15",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 9,
@@ -114,7 +138,10 @@
         "instagram": "tyuk.55",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 10,
@@ -127,7 +154,10 @@
         "instagram": "lawakele_fj",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 11,
@@ -140,7 +170,10 @@
         "instagram": "gnq_tm",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 12,
@@ -153,7 +186,10 @@
         "instagram": "xenon1101001",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 13,
@@ -166,7 +202,10 @@
         "instagram": "angarag53",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 14,
@@ -179,7 +218,10 @@
         "instagram": "temuulzgene01",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 15,
@@ -192,7 +234,10 @@
         "instagram": "litaltak",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 16,
@@ -205,7 +250,10 @@
         "instagram": "rgl_tsogt",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 17,
@@ -218,7 +266,10 @@
         "instagram": "blgn_n__",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 18,
@@ -231,7 +282,10 @@
         "instagram": "chinguunbnaa",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 19,
@@ -244,7 +298,10 @@
         "instagram": "_badmaarag__",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 20,
@@ -257,7 +314,10 @@
         "instagram": "fates_fx7",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 21,
@@ -270,7 +330,10 @@
         "instagram": "ivtulga",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 22,
@@ -283,7 +346,10 @@
         "instagram": "rhm_gan",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 23,
@@ -296,20 +362,26 @@
         "instagram": "miuuleeee",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 24,
         "first_name": "Temujin",
         "last_name": "Soyol-Erdene",
         "email": "temujin@nhs.edu.mn",
-        "age": 16,
+        "age": 24,
         "country": "Mongolia",
         "password": "password123",
         "instagram": "",
-        "type": "student",
+        "type": "teacher",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
     {
         "id": 25,
@@ -322,6 +394,121 @@
         "instagram": "tuvshinna_14",
         "type": "student",
         "point": 100,
-        "created_at": "2026-03-11"
+        "created_at": "2026-03-11",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
     },
+    {
+        "id": 26,
+        "first_name": "Dul",
+        "last_name": "Gantulga",
+        "email": "dul@nhs.edu.mn",
+        "age": 26,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "dulgantulga",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    },
+    {
+        "id": 27,
+        "first_name": "Azjargal",
+        "last_name": "Gantulga",
+        "email": "azjargal@nhs.edu.mn",
+        "age": 23,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "azukkka",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    },
+    {
+        "id": 28,
+        "first_name": "Namuunaa",
+        "last_name": "Khosbayar",
+        "email": "namuun@nhs.edu.mn",
+        "age": 22,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "namuna_25",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    },
+    {
+        "id": 29,
+        "first_name": "Chantsalnyam",
+        "last_name": "Tsogoo",
+        "email": "chantsalnyam@nhs.edu.mn",
+        "age": 25,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "chantsalniamt",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    },
+    {
+        "id": 30,
+        "first_name": "Azjargal",
+        "last_name": "S",
+        "email": "azjargall@nhs.edu.mn",
+        "age": 23,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "azaaaaa",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    },
+    {
+        "id": 31,
+        "first_name": "Khishigbayar",
+        "last_name": "Myagdarsuren",
+        "email": "khishigbayar@nhs.edu.mn",
+        "age": 24,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "khshqe",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    },
+    {
+        "id": 32,
+        "first_name": "Nigga",
+        "last_name": "Black",
+        "email": "nigger@nhs.edu.mn",
+        "age": 27,
+        "country": "Mongolia",
+        "password": "password123",
+        "instagram": "nigga",
+        "type": "teacher",
+        "point": 100,
+        "created_at": "2026-03-25",
+        "img": "https://i.pinimg.com/736x/3b/49/48/3b49482c42b9cf8c2473413638c95410.jpg",
+        "item1": "https://media.tenor.com/TnVhYIuO6U8AAAAM/gachiakuta-rudo.gif",
+        "item2": "https://aniyuki.com/wp-content/uploads/2025/10/Aniyuki-gachiakuta-gif-27.gif"
+    }
 ]

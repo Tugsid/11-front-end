@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+@import url('https://googleapis.com');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* 2. Define the Pacifico font variable */
+  --font-pacific: "Pacifico", cursive;
 }
 
 @theme inline {
@@ -10,6 +18,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* 3. Map the variable so you can use 'font-pacific' in your HTML */
+  --font-pacific: var(--font-pacific);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +33,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  /* You can keep Arial as default, or change to var(--font-pacific) if you want it everywhere */
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,7 +46,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
