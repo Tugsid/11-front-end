@@ -1,23 +1,58 @@
 "use client";
 
-
-import Link from "next/link"
+import Link from "next/link";
 import { useState } from "react";
-
-import DataJson from "../../utils/aimag.json"
+import DataJson from "../../utils/aimag.json";
 
 export default function HomePage() {
-  console.log(DataJson);
-    const [click, setClick] = useState();
+  const [click, setClick] = useState(null);
+
   return (
-    <div className=" grid grid-cols-10 gap-4 p-8 bg-white flex justify-center items-center h-screen">
-      {DataJson.map((item) =>
-        <button onClick={() => setClick(!click)} key={item.id} className={`bg-blue-900 
-        w-full aspect-1/1 rounded-xl flex justify-center items-center flex-col p-4 py-6 shadow-md 
-        hover:bg-blue-600 
-        focus:outline-2 focus:outline-offset-1 focus:outline-blue-500 focus:bg-green-900 ${click == true ? "bg-red-700": "bg-blue-500"}`}>
-          <p className={`text-black font-bold font-pacific text-sm flex flex-wrap ${click == true ? "text-green-400" : "text-white"}`}>Аймаг: <p className={`ml-3 text-black font-normal font-pacific text-sm ${click == true ? "text-blue-400": "text-white"}`}>{item.Aimag}</p></p>
-        </button>      )}
+    <div className="min-h-screen bg-white p-4 sm:p-6 md:p-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {DataJson.map((item) => (
+          <button
+            onClick={() => setClick(click === item.id ? null : item.id)}
+            key={item.id}
+            className={`
+              w-full aspect-square rounded-xl flex justify-center items-center flex-col
+              p-3 sm:p-4 shadow-md transition-all duration-300
+              hover:bg-blue-600
+              ${
+                click === item.id
+                  ? "bg-red-700"
+                  : "bg-blue-500"
+              }
+            `}
+          >
+            <p
+              className={`
+                font-bold font-pacific text-xs sm:text-sm md:text-base text-center
+                ${
+                  click === item.id
+                    ? "text-green-400"
+                    : "text-white"
+                }
+              `}
+            >
+              Аймаг:
+            </p>
+
+            <p
+              className={`
+                mt-2 font-normal font-pacific text-xs sm:text-sm md:text-base text-center
+                ${
+                  click === item.id
+                    ? "text-blue-300"
+                    : "text-white"
+                }
+              `}
+            >
+              {item.Aimag}
+            </p>
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

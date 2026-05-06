@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const heroBg =
@@ -14,11 +15,12 @@ const carouselImage2 =
 
 export default function LandingPage() {
   const [showLogin, setShowLogin] = useState(false);
+  const router = useRouter();
 
   return (
     <div className="min-h-screen bg-gray-950 text-white relative">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/60 backdrop-blur-md border-b border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-4">
           <div className="text-2xl font-bold tracking-tight">PIXLS</div>
 
           <div className="hidden md:flex items-center gap-10">
@@ -36,16 +38,23 @@ export default function LandingPage() {
             </a>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <input
               type="search"
               placeholder="Try Lotus GT 430"
-              className="w-64 bg-gray-900 border border-gray-700 rounded-full py-2 px-5 text-sm focus:outline-none focus:border-green-500"
+              className="hidden sm:block w-40 md:w-64 bg-gray-900 border border-gray-700 rounded-full py-2 px-5 text-sm focus:outline-none focus:border-green-500"
             />
 
             <button
+              onClick={() => router.back()}
+              className="border border-gray-600 bg-black/40 hover:bg-white hover:text-black transition text-white font-medium px-4 sm:px-6 py-2 rounded-full backdrop-blur-md"
+            >
+              Back
+            </button>
+
+            <button
               onClick={() => setShowLogin(true)}
-              className="bg-green-500 hover:bg-green-600 text-black font-medium px-6 py-2 rounded-full"
+              className="bg-green-500 hover:bg-green-600 text-black font-medium px-4 sm:px-6 py-2 rounded-full"
             >
               Login
             </button>
@@ -54,45 +63,45 @@ export default function LandingPage() {
       </nav>
 
       <section
-        className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center px-4"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
         <div className="absolute inset-0 bg-black/55" />
 
-        <div className="relative z-10 text-center px-6 max-w-5xl">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+        <div className="relative z-10 text-center px-2 sm:px-6 max-w-5xl">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6">
             LARGEST IMAGE SOURCE
           </h1>
 
-          <p className="text-3xl md:text-5xl font-extrabold mb-10">
+          <p className="text-2xl sm:text-3xl md:text-5xl font-extrabold mb-10">
             POWERED BY{" "}
             <span className="text-green-400">CREATORS AROUND</span>
             <br />
             THE WORLD.
           </p>
 
-          <p className="text-xl md:text-2xl opacity-90 mb-8">
+          <p className="text-base sm:text-xl md:text-2xl opacity-90 mb-8">
             Over 3 million free high-resolution images brought to you by the
             world&apos;s most generous community of photographers.
           </p>
 
-          <a href="#" className="text-green-400 hover:text-green-300 text-xl">
+          <a href="#" className="text-green-400 hover:text-green-300 text-lg sm:text-xl">
             Create account →
           </a>
         </div>
       </section>
 
-      <section className="bg-gray-900 py-16">
-        <div className="max-w-6xl mx-auto px-6">
+      <section className="bg-gray-900 py-12 md:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex gap-6 overflow-x-auto pb-6">
             {[1, 2, 3, 4, 5].map((i) => (
-              <div key={i} className="flex-shrink-0 w-80 md:w-96">
+              <div key={i} className="flex-shrink-0 w-72 sm:w-80 md:w-96">
                 <Image
                   src={i % 2 === 0 ? carouselImage1 : carouselImage2}
                   alt="Classic car"
                   width={400}
                   height={300}
-                  className="w-full h-64 object-cover rounded-xl shadow-2xl"
+                  className="w-full h-40 sm:h-56 md:h-64 object-cover rounded-xl shadow-2xl"
                 />
               </div>
             ))}
@@ -112,14 +121,14 @@ export default function LandingPage() {
 
       {showLogin && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-6"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 sm:p-6"
           onClick={() => setShowLogin(false)}
         >
           <div
             className="bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative h-48">
+            <div className="relative h-40 sm:h-48">
               <Image
                 src={heroBg}
                 alt="Car background"
@@ -129,14 +138,16 @@ export default function LandingPage() {
 
               <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent" />
 
-              <div className="relative z-10 p-8 text-center">
-                <h2 className="text-3xl font-bold">LOTUS GT 430</h2>
+              <div className="relative z-10 p-6 sm:p-8 text-center">
+                <h2 className="text-2xl sm:text-3xl font-bold">
+                  LOTUS GT 430
+                </h2>
                 <p className="text-green-400 mt-1">Best cars</p>
               </div>
             </div>
 
-            <div className="p-8">
-              <h3 className="text-2xl font-semibold mb-6 text-center">
+            <div className="p-5 sm:p-8">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-6 text-center">
                 Login to your account
               </h3>
 
@@ -162,7 +173,7 @@ export default function LandingPage() {
                   />
                 </div>
 
-                <div className="flex items-center justify-between text-sm">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-sm">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" className="accent-green-500" />
                     <span>Remember me</span>

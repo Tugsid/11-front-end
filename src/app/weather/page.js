@@ -16,15 +16,17 @@ import Link from "next/link";
 
 export default function LandingPage() {
   return (
-    <div className="flex items-center m-4 gap-4 w-full h-screen bg-[#151f34]">
+    <div className="flex flex-col md:flex-row items-start m-4 gap-4 w-full min-h-screen bg-[#151f34]">
       
       {/* Sidebar */}
-      <div className="w-[7%] h-[96%] bg-[#1b2d58] rounded-3xl m-4 flex flex-col items-center">
+      <div className="w-full md:w-[7%] h-auto md:h-[96%] bg-[#1b2d58] rounded-3xl m-2 md:m-4 flex flex-col items-center">
         
         <div className="w-[55%] aspect-square bg-[#173f7f] rounded-2xl m-8 flex justify-center items-center">
           <Image
             src="https://cdn-icons-png.flaticon.com/512/5024/5024369.png"
             alt="logo"
+            width={50}
+            height={50}
             className="w-[50px]"
           />
         </div>
@@ -51,10 +53,10 @@ export default function LandingPage() {
       </div>
 
       {/* Main */}
-      <div className="w-[93%] h-full flex gap-4">
+      <div className="w-full md:w-[93%] h-full flex gap-4 flex-col md:flex-row">
 
         {/* Left */}
-        <div className="w-[60%] flex flex-col gap-4">
+        <div className="w-full md:w-[60%] flex flex-col gap-4">
 
           <input
             placeholder="Search for cities"
@@ -73,6 +75,8 @@ export default function LandingPage() {
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/831/831682.png"
                 alt="sunny"
+                width={200}
+                height={200}
                 className="w-[200px]"
               />
             </div>
@@ -98,6 +102,8 @@ export default function LandingPage() {
                   <Image
                     src="https://cdn-icons-png.flaticon.com/512/831/831682.png"
                     alt="weather"
+                    width={50}
+                    height={50}
                     className="w-[50px] mx-auto"
                   />
                   <p className="font-bold">{item[1]}</p>
@@ -142,7 +148,7 @@ export default function LandingPage() {
         </div>
 
         {/* Right */}
-        <div className="w-[40%] bg-[#1b2d58] rounded-3xl p-6 text-white">
+        <div className="w-full md:w-[40%] bg-[#1b2d58] rounded-3xl p-6 text-white mt-4 md:mt-0">
           <h2 className="text-[#a1cbfa] font-bold">7-DAY FORECAST</h2>
         </div>
       </div>
